@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<ul class="PUL">
+		<li>所有省份：</li>
+	</ul>
+</body>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script>
+	$.ajax({
+		url: 'http://localhost:3009'      //服务器地址
+	}).then(res => {	//res为字符串
+		//console.log(res);		//服务器返回的数据
+		// var pArr = JSON.parse(res).locality.provinces[0].province;
+		// //console.log(pArr);		//数组
+		// for (i = 0; i < pArr.length; i++) {
+		// 	console.log(pArr[i].$.text);
+		// 	$('.PUL').append("<li>"+pArr[i].$.text+"</li>")
+		// }
+
+		var pArr = JSON.parse(res).result.newslist;
+		//console.log(pArr);		//数组
+		for (i = 0; i < pArr.length; i++) {
+			console.log(pArr[i].title);
+			$('.PUL').append("<li>" + pArr[i].title + "</li>")
+		}
+	})
+</script>
+
+</html>

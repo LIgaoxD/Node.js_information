@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="DouPHP,轻量级企业网站管理系统">
+  <meta name="description" content="DouPHP,轻量级企业网站管理系统">
+  <meta name="generator" content="DouPHP v1.6">
+  <title>DouPHP轻量级企业网站管理系统 - Powered by DouPHP</title>
+  <link href="https://demo.douphp.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="./index_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="./index_files/swiper.min.css" rel="stylesheet" type="text/css">
+  <link href="./index_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="./index_files/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <div class="top d-none d-md-block">
+        <div class="container">
+          <ul class="top-nav">
+            <li><a
+                href="javascript:AddFavorite(&#39;https://demo.douphp.com/&#39;, &#39;DouPHP轻量级企业网站管理系统&#39;)">收藏本站</a>
+            </li>
+          </ul>
+          <ul class="search">
+            <div class="search-box">
+              <form name="search" id="search" method="get" action="https://demo.douphp.com/">
+                <input name="s" type="text" class="keyword" value="产品搜索" onclick="inputClick(this, &#39;产品搜索&#39;)"
+                  size="25" autocomplete="off">
+                <input type="submit" class="btnSearch" value="提交">
+              </form>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-sm custom_nav">
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="https://demo.douphp.com/" class="logo"><img src="./index_files/logo.png"
+                alt="DouPHP轻量级企业网站管理系统"></a>
+          </div>
+          <div class="navbar-action d-md-none">
+            <button type="button" class="menu" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav"
+              aria-expanded="false" aria-label="Toggle navigation"> <span class="fa fa-bars"></span> </button>
+          </div>
+          <div class="main-nav collapse navbar-collapse justify-content-md-end" id="main-nav">
+            <ul class="navbar-nav">
+              <li class="nav-item active"> <a class="nav-link" href="https://demo.douphp.com/">首页</a></li>
+              <li class="nav-item dropdown"> <a href="https://demo.douphp.com/about.html"
+                  class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">公司简介</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                  <li> <a class="dropdown-item" href="https://demo.douphp.com/honor.html">企业荣誉</a>
+                  </li>
+                  <li> <a class="dropdown-item" href="https://demo.douphp.com/history.html">发展历程</a>
+                  </li>
+                  <li> <a class="dropdown-item" href="https://demo.douphp.com/contact.html">联系我们</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"> <a href="https://demo.douphp.com/product" class="nav-link dropdown-toggle"
+                  id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">产品中心</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown2">
+                  <li class="dropdown-submenu"> <a class="dropdown-item dropdown-toggle"
+                      href="https://demo.douphp.com/product/digital" data-toggle="dropdown"
+                      aria-haspopup="true">电子数码</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://demo.douphp.com/product/phone">智能手机</a></li>
+                      <li><a class="dropdown-item" href="https://demo.douphp.com/product/tabletpc">平板电脑</a></li>
+                    </ul>
+                  </li>
+                  <li> <a class="dropdown-item" href="https://demo.douphp.com/product/home">家居百货</a>
+                  </li>
+                  <li> <a class="dropdown-item" href="https://demo.douphp.com/product/baby">母婴用品</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"> <a href="https://demo.douphp.com/news" class="nav-link dropdown-toggle"
+                  id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">文章中心</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown3">
+                  <li> <a class="dropdown-item" href="https://demo.douphp.com/news/company">公司动态</a>
+                  </li>
+                  <li> <a class="dropdown-item" href="https://demo.douphp.com/news/industry">行业新闻</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item"> <a href="https://demo.douphp.com/honor.html" class="nav-link">企业荣誉</a>
+              </li>
+              <li class="nav-item"> <a href="https://demo.douphp.com/job.html" class="nav-link">人才招聘</a>
+              </li>
+              <li class="nav-item"> <a href="https://demo.douphp.com/contact.html" class="nav-link">联系我们</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 d-md-none" action="https://demo.douphp.com/">
+              <input class="form-control mr-sm-2" name="s" type="search" value="" placeholder="产品搜索" aria-label="产品搜索">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">提交</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="swiper-container slide-show swiper-container-initialized swiper-container-horizontal">
+      <div class="swiper-wrapper" style="transition-duration: 2000ms; transform: translate3d(-3903px, 0px, 0px);">
+        <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="3"
+          style="width: 1301px;"><a href="https://www.douphp.com/" target="_blank"
+            style="background-image:url(https://demo.douphp.com/data/slide/20130523hiqafl.jpg)"></a></div>
+        <div class="swiper-slide" data-swiper-slide-index="0" style="width: 1301px;"><a href="https://www.douphp.com/"
+            target="_blank" style="background-image:url(https://demo.douphp.com/data/slide/20130514acunau.jpg)"></a>
+        </div>
+        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" style="width: 1301px;"><a
+            href="https://www.douphp.com/" target="_blank"
+            style="background-image:url(https://demo.douphp.com/data/slide/20130514rjzqdt.jpg)"></a></div>
+        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" style="width: 1301px;"><a
+            href="https://www.douphp.com/" target="_blank"
+            style="background-image:url(https://demo.douphp.com/data/slide/20130514xxsctt.jpg)"></a></div>
+        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="3" style="width: 1301px;"><a
+            href="https://www.douphp.com/" target="_blank"
+            style="background-image:url(https://demo.douphp.com/data/slide/20130523hiqafl.jpg)"></a></div>
+        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 1301px;"><a
+            href="https://www.douphp.com/" target="_blank"
+            style="background-image:url(https://demo.douphp.com/data/slide/20130514acunau.jpg)"></a></div>
+      </div>
+      <!-- 如果需要分页器 -->
+      <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
+          class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span
+          class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+          class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+          aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button"
+          aria-label="Go to slide 4"></span></div>
+
+      <!-- 如果需要导航按钮 -->
+      <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
+      <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+    </div>
+    <div id="index">
+      <div class="index-box">
+        <div class="container">
+          <div class="row about">
+            <div class="col-md-4">
+              <div class="img scale">
+                <img src="./index_files/about.jpg">
+              </div>
+            </div>
+            <div class="col-md-8">
+              <h2>公司简介</h2>
+              <div class="desc">
+                DouPHP是一款轻量级企业网站管理系统，基于PHP+Mysql架构的，可运行在Linux、Windows、MacOSX、Solaris等各种平台上，系统搭载Smarty模板引擎，支持自定义伪静态，前台模板采用DIV+CSS设计，后台界面设计简洁明了，功能简单易具有良好的用户体验，稳定性好、扩展性及安全性强，可面向中小型站点提供网站建设解决方案。传统的企业网站管理系统是以技术人员的角度出发，设计了很多复杂的功能，并且操作流程上也很...
+              </div>
+              <div class="more"><a href="https://demo.douphp.com/about.html">查看详细</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="index-box bg">
+        <h3><b>产品展示</b><em>Recommend Product</em></h3>
+        <div class="product-list">
+          <div class="container">
+            <div class="row" id="newProduct">
+
+
+              <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+              <script>
+                $.ajax({
+                  url: 'http://localhost:3009'      //服务器地址
+                }).then(res => {	//res为字符串
+                  console.log(res);		//服务器返回的数据
+                  var pArr = JSON.parse(res)[0];      //0表示第一个元素
+                  //console.log(pArr);		//数组
+                  for (i = 0; i < pArr.length; i++) {
+                    console.log(pArr[i].name);
+                    // $('#newProduct').append(' <div class="col-md-3 col-6">< div class= "item" > '); 
+                    // $('#newProduct').append('<div class="img scale"><a href=""><img src = "mysql_data/index_files/13_thumb.jpg" ></a ></div > ');   
+                    // $('#newProduct').append('<div class="name">法国合生元奶粉</div>');
+                    // $('#newProduct').append('<div class="price">￥128.00 元</div>');
+                    // $('#newProduct').append('</div></div >');
+
+                    $('#newProduct').append('<div class="col-md-3 col-6""><div class="item"><div class="img scale"><a href=""><img src="' + pArr[i].image + '"></a></div><div class="name">' + pArr[i].name + '</div><div class="price">￥' + pArr[i].price + '元</div></div></div>');
+
+                  }
+
+                })
+              </script>
+
+              <!--<div class="col-md-3 col-6">
+                  <div class="item">
+                  <div class="img scale"><a href=""><img src="mysql_data/index_files/13_thumb.jpg"></a></div>
+                  <div class="name">法国合生元奶粉</div>
+                  <div class="price">￥128.00 元</div>
+                  </div>
+                  </div> -->
+
+            </div>
+          </div>
+        </div>
+        <div class="more"><a href="https://demo.douphp.com/product">更多产品</a></div>
+      </div>
+      <div class="index-box">
+        <h3><b>新闻中心</b><em>Recommend News</em></h3>
+        <div class="article-list">
+          <div class="container">
+            <div class="row">
+              <div class="img-box col-md-5">
+                <dl class="img scale"><a href="https://demo.douphp.com/news/company/10.html"><img
+                      src="./index_files/10_1590637651640490.jpg"></a>
+                </dl>
+                <dl class="item">
+                  <dt><em>26</em><b>2013-06</b></dt>
+                  <dd><a href="https://demo.douphp.com/news/company/10.html">如何添加自定义字段</a>
+                    <p>以商品为例，如果要给商品加上自定义字段，首先找到系统设置-自定义然后填入如“颜色,尺寸,型号”中间以英文逗号隔开，然后在商品编...</p>
+                  </dd>
+                </dl>
+
+              </div>
+              <div class="text-box col-md-7" id="news">
+                <script>
+                  $.ajax({
+                    url: 'http://localhost:3009'      //服务器地址
+                  }).then(res => {	//res为字符串
+                    console.log(res);		//服务器返回的数据
+                    var nArr = JSON.parse(res)[1];      //1表示第二个元素   新闻
+                    //console.log(pArr);		//数组
+                    for (i = 0; i < nArr.length; i++) {
+                      console.log(nArr[i].title);
+
+                      $('#news').append('<dl class="item"><dt><em>' + nArr[i].click + '</em><b>' + nArr[i].add_time + '</b></dt><dd><a href="">' + nArr[i].title + '</a><p>' + nArr[i].content.substr(0, 40) + '...</p></dd></dl>');
+                    }
+
+                  });
+
+                </script>
+
+                <!-- <dl class="item">
+                  <dt><em>26</em><b>2013-06</b></dt>
+                  <dd><a href="">如何建立一个新的DouPHP模板</a>
+                    <p>第一步打开theme目录，将default目录复制一份，更名为您打算制作的模板名称可包含英文或数字，然后打开您的模板，了解下模板目录结构；第二步登...</p>
+                  </dd>
+                </dl> -->
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="more"><a href="https://demo.douphp.com/news">更多文章</a></div>
+      </div>
+    </div>
+    <div class="online-service">
+      <div class="item">
+        <i class="item-icon weixin"></i>
+        <div class="pop-box">
+          <div class="item-box">
+            <div class="weixin-box"><img src="./index_files/weixin.png">
+              <p>微信二维码</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <i class="item-icon tel"></i>
+        <div class="pop-box">
+          <div class="item-box">
+            <div class="tel-box">0596-8888888</div>
+          </div>
+        </div>
+      </div>
+      <p class="go-top" style="display: none;"><a href="javascript:;" onfocus="this.blur();" class="go-btn"></a></p>
+    </div>
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="foot-nav">
+              <div class="nav-parent">
+                <a href="https://demo.douphp.com/about.html">公司简介</a>
+              </div>
+              <div class="nav-child">
+                <a href="https://demo.douphp.com/honor.html">企业荣誉</a>
+                <a href="https://demo.douphp.com/history.html">发展历程</a>
+                <a href="https://demo.douphp.com/contact.html">联系我们</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="foot-nav">
+              <div class="nav-parent">
+                <a href="https://demo.douphp.com/product">产品中心</a>
+              </div>
+              <div class="nav-child">
+                <a href="https://demo.douphp.com/product/digital">电子数码</a>
+                <a href="https://demo.douphp.com/product/home">家居百货</a>
+                <a href="https://demo.douphp.com/product/baby">母婴用品</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="foot-nav">
+              <div class="nav-parent">
+                <a href="https://demo.douphp.com/news">文章中心</a>
+              </div>
+              <div class="nav-child">
+                <a href="https://demo.douphp.com/news/company">公司动态</a>
+                <a href="https://demo.douphp.com/news/industry">行业新闻</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="foot-nav">
+              <div class="nav-parent">
+                <a href="https://demo.douphp.com/honor.html">企业荣誉</a>
+              </div>
+              <div class="nav-child">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="weixin"><img src="./index_files/weixin.png">
+              <p>微信二维码</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="contact">
+              <div class="tel">0596-8888888</div>
+              <div class="email">your@domain.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="copy-right">© DouPHP轻量级企业网站管理系统 2020 All Rights Reserved. <a href="http://www.douphp.com/"
+            target="_blank">Powered by DouPHP</a> </div>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="./index_files/jquery.min.js"></script>
+  <script type="text/javascript" src="./index_files/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./index_files/swiper.min.js"></script>
+  <script type="text/javascript" src="./index_files/slide_show.js"></script>
+  <script type="text/javascript" src="./index_files/dou.js"></script>
+
+</body>
+
+</html>

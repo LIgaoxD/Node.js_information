@@ -1,0 +1,109 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0039)product.php -->
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+
+<HEAD>
+  <TITLE>Pampers帮宝适超薄干爽纸尿裤 | 母婴用品 | 产品中心 | DouPHP轻量级企业网站管理系统 - Powered by DouPHP</TITLE>
+  <META content="text/html; charset=utf-8" http-equiv=Content-Type>
+  <META name=keywords content=帮宝适,纸尿裤>
+  <META name=description content="">
+  <META name=GENERATOR content="MSHTML 8.00.7600.17267">
+  <LINK rel=stylesheet type=text/css href="css/style.css">
+  <SCRIPT type=text/javascript src="js/jquery.min.js"></SCRIPT>
+
+  <SCRIPT type=text/javascript src="js/global.js"></SCRIPT>
+</HEAD>
+
+<BODY>
+  <DIV id=wrapper>
+    <DIV id=top>
+      <DIV class=wrap>
+        <UL class=topNav>
+          <LI><A href="m">手机版</A></LI>
+          <LI class=spacer></LI>
+          <LI><A href="javascript:AddFavorite('', 'DouPHP轻量级企业网站管理系统')">收藏本站</A></LI>
+        </UL>
+        <UL class=search>
+          <DIV class=searchBox>
+            <FORM id=search method=get name=search action=><LABEL for=keyword></LABEL><INPUT class=keyword
+                title=输入您要搜索的产品名称 onclick="formClick(this,'产品搜索')" value=产品搜索 maxLength=128 size=25 type=text name=s
+                autocomplete="off"> <INPUT class=btnSearch value=提交 type=submit>
+            </FORM>
+          </DIV>
+        </UL>
+      </DIV>
+    </DIV>
+    <DIV id=header>
+      <DIV class=wrap>
+        <UL class=logo><A href=""><IMG title=DouPHP轻量级企业网站管理系统 alt=DouPHP轻量级企业网站管理系统 src="images/logo.png"></A>
+        </UL>
+
+        
+        <%- include("./nav.ejs")%>
+
+
+        <P class=clear></P>
+      </DIV>
+    </DIV>
+    <DIV class="wrap mb">
+      <DIV id=pageLeft>
+        <DIV class=treeBox>
+          <H3>产品分类</H3>
+          <UL>
+            <LI><A href="product_category.php?id=1">电子数码</A></LI>
+            <UL>
+              <LI>-<A href="product_category.php?id=4">智能手机</A></LI>
+              <LI>-<A href="product_category.php?id=5">平板电脑</A></LI>
+            </UL>
+            <LI><A href="product_category.php?id=2">家居百货</A></LI>
+            <LI class=cur><A href="product_category.php?id=3">母婴用品</A></LI>
+          </UL>
+        </DIV>
+      </DIV>
+      <DIV id=pageIn>
+        <DIV class=urHere>当前位置：<A href="">首页</A><B>&gt;</B><A href="product_category.php">产品中心</A><B>&gt;</B><A
+            href="product_category.php?id=3">母婴用品</A><B>&gt;</B>Pampers帮宝适超薄干爽纸尿裤</DIV>
+        <DIV id=product>
+
+          <DIV class=productImg><A href="images/12.jpg" target=_blank><IMG src="<%= oneProduct[0].image %>" width=300></A></DIV>
+          <DIV class=productInfo>
+            <H1><%= oneProduct[0].name %></H1>
+            <UL>
+              <LI class=productPrice>价格：<EM class=price>￥<%= oneProduct[0].price %>元</EM></LI>
+            </UL>
+            <DL class=btnAsk>
+              <DT>购买咨询：</DT>
+              <DD><A href="http://wpa.qq.com/msgrd?v=3&amp;uin=&amp;site=qq&amp;menu=yes" target=_blank><IMG
+                    src="images/online_qq.jpg"></A>
+                <A href="mailto:your@domain.com"><IMG src="images/online_email.jpg"></A>
+              </DD>
+            </DL>
+          </DIV>
+          <DIV class=clear></DIV>
+          <DIV class=productContent>
+            <H3>产品介绍</H3>
+            <UL><%- oneProduct[0].content %>+
+            </UL>
+          </DIV>
+        </DIV>
+      </DIV>
+      <DIV class=clear></DIV>
+    </DIV>
+    <DIV id=footer>
+      <DIV class=wrap>
+        <DIV class=footNav><A href="page.php?id=1">公司简介</A><I>|</I><A href="page.php?id=6">营销网络</A><I>|</I><A
+            href="page.php?id=2">企业荣誉</A><I>|</I><A href="page.php?id=5">人才招聘</A><I>|</I><A
+            href="page.php?id=4">联系我们</A><I>|</I><A href="m">手机版</A></DIV>
+        <DIV class=copyRight>© DouPHP轻量级企业网站管理系统 2018 All Rights Reserved. <A href="http://www.douco.com/"
+            target=_blank>Powered by DouPHP</A>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV style="DISPLAY: none">
+      <SCRIPT
+        type=text/javascript>var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5623886'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s9.cnzz.com/stat.php%3Fid%3D5623886' type='text/javascript'%3E%3C/script%3E"));</SCRIPT>
+    </DIV>
+  </DIV>
+</BODY>
+
+</HTML>

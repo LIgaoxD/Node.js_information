@@ -1,0 +1,100 @@
+{
+  "code": 200,
+  "msg": "success",
+  "result": {
+    "curpage": 1,
+    "allnum": 10,
+    "newslist": [
+      {
+        "id": "e6e3e85b5a43fb9c78ab18838f99eee9",
+        "ctime": "2022-12-09 13:12",
+        "title": "马斯克两岁儿子已有推特工牌",
+        "description": "12月9日消息，美国当地时间周四，埃隆·马斯克（ElonMusk）在推特上晒出了携两岁儿子X视察推特总部的照片。照片上显示，小X已经有了自己的工牌。这些照片是在推特总部附近拍摄的，背景是旧金山联合广场的心形雕塑。马斯克还在推特上写道：“X...[阅读更多]",
+        "source": "网易互联网",
+        "picUrl": "http://cms-bucket.ws.126.net/2022/1209/6fe576a2p00rmllft0013c0009c0070c.png?imageView&thumbnail=200y140",
+        "url": "https://www.163.com/tech/article/HO5969BP00097U7R.html"
+      },
+      {
+        "id": "cff1817940ed88226a7220826e947375",
+        "ctime": "2022-12-09 13:50",
+        "title": "黄光裕援驰救火 后续资金能否跟上？ 国美称大",
+        "description": "本报记者贾丽处于危急关头的国美系（下称国美），终于找来了资金。在员工集体上门讨薪三天后，国美得到实际控制人黄光裕的“输血”。国美零售于12月8日晚间发布公告称，公司与ShinningcrownHoldingsInc．订立贷款协议，S...[阅读更多]",
+        "source": "网易互联网",
+        "picUrl": "http://cms-bucket.ws.126.net/2022/1209/371968b6p00rmlyg3001oc0009c0070c.png?imageView&thumbnail=200y140",
+        "url": "https://www.163.com/tech/article/HO5BB2G800097U7R.html"
+      },
+      {
+        "id": "83a101a88de2bac0d63f0f4212b292aa",
+        "ctime": "2022-12-09 11:41",
+        "title": "360数科：完成Apache Doris在毓数大数据分析多",
+        "description": "12月9日消息，日前，毓数大数据平台架构全面升级，360数科完成了ApacheDoris在毓数大数据分析多场景落地应用。同时，360数科独创的Doris+Presto秒级多级加速引擎，改良了大数据分析内存占用过高，数据处理缓慢等问题。...[阅读更多]",
+        "source": "网易互联网",
+        "picUrl": "http://cms-bucket.ws.126.net/2022/1209/6fe576a2p00rmllft0013c0009c0070c.png?imageView&thumbnail=200y140",
+        "url": "https://www.163.com/tech/article/HO53V5LD00097U7R.html"
+      },
+      {
+        "id": "bf6b3c05737bfde7029e0a04a856e6ef",
+        "ctime": "2022-12-09 08:21",
+        "title": "FTC正式起诉微软 阻止其收购动视暴雪",
+        "description": "12月9日消息，当地时间周四美国联邦贸易委员会（FTC）正式提起诉讼，阻止微软斥资687亿美元收购游戏开发商动视暴雪的交易。这无疑是给微软迅速扩大游戏组合、追赶更大竞争对手的计划扔了一块绊脚石。微软拥有Xbox游戏机和游戏网络平台等业务。公...[阅读更多]",
+        "source": "网易互联网",
+        "picUrl": "http://cms-bucket.ws.126.net/2022/1209/df893654p00rmlkz6001cc0009c0070c.png?imageView&thumbnail=200y140",
+        "url": "https://www.163.com/tech/article/HO4OGELO00097U7R.html"
+      },
+      {
+        "id": "1f3dd81e4c7e442c0c4528a8e5d40e36",
+        "ctime": "2022-12-09 08:31",
+        "title": "谷歌计划合并地图和Waze团队以削减成本，称不打",
+        "description": "12月9日消息，谷歌正计划将地图服务Waze团队与负责该公司地图产品的团队合并，以精简运营，缓解越来越大的成本压力。据谷歌发言人透露，谷歌计划从周五开始，将拥有500多人的Waze团队与该公司负责谷歌地图、谷歌地球和街景产品的Geo部门合并...[阅读更多]",
+        "source": "网易互联网",
+        "picUrl": "http://cms-bucket.ws.126.net/2022/1209/6fe576a2p00rmllft0013c0009c0070c.png?imageView&thumbnail=200y140",
+        "url": "https://www.163.com/tech/article/HO4P2KV700097U7R.html"
+      },
+      {
+        "id": "19d359daad8ab1ef79d32cf388cc9a12",
+        "ctime": "2022-12-08 13:12",
+        "title": "阿里巴巴eWTP与泰国共建首个数字自贸区，东南亚",
+        "description": "12月8日消息，阿里巴巴eWTP与泰国共建的首个数字自贸区正式开始试运营，这也是自2018年eWTP与泰国签订合作备忘录以来的标志性进展。据悉，泰国数字自贸区坐落在交通便利的泰国东部经济走廊区域，毗邻泰国经济的主动脉线，占地40000平方米...[阅读更多]",
+        "source": "网易互联网",
+        "picUrl": "http://cms-bucket.ws.126.net/2022/1208/7b70a60cp00rmk3mb001bc0009c0070c.png?imageView&thumbnail=200y140",
+        "url": "https://www.163.com/tech/article/HO2MPIOU00097U7R.html"
+      },
+      {
+        "id": "3f45fa2a64b1bb7c2270a368bc865c1b",
+        "ctime": "2022-12-08 12:29",
+        "title": "网易与中建八局达成战略合作，联合研发多种工程",
+        "description": "近日，网易与中建八局签署战略合作协议，双方将利用各自强有力的研发能力、产业规划及市场规模，共同推进数字化和智能化工程机械领域的深入合作，推动商业化应用。目前，网易伏羲与中建八局联合研发的挖掘机器人，正在四川理塘参与西南重点基建项目建设，这也...[阅读更多]",
+        "source": "网易互联网",
+        "picUrl": "http://cms-bucket.ws.126.net/2022/1208/564baeadp00rmk1sj0011c0009c0070c.png?imageView&thumbnail=200y140",
+        "url": "https://www.163.com/tech/article/HO2K9M1B00097U7R.html"
+      },
+      {
+        "id": "de897341ac807235c248e7ab9383c093",
+        "ctime": "2022-12-08 10:01",
+        "title": "马斯克请两个堂兄弟协助管理推特",
+        "description": "12月8日消息，自从斥资440亿美元收购推特以来，埃隆·马斯克(ElonMusk)已经解雇了数千名推特员工。但与此同时，他也在不断安插亲信，包括他的两个堂兄弟，以试图帮助推特实现扭亏为盈。据悉，马斯克的堂兄弟詹姆斯·马斯克（JamesM...[阅读更多]",
+        "source": "网易互联网",
+        "picUrl": "http://cms-bucket.ws.126.net/2022/1208/cf42214fp00rmjute000zc0009c0070c.png?imageView&thumbnail=200y140",
+        "url": "https://www.163.com/tech/article/HO2BQ8PN00097U7R.html"
+      },
+      {
+        "id": "21a2ec912c309f6817c432f5293e1287",
+        "ctime": "2022-12-08 08:10",
+        "title": "硬核但工资高，推特预招20个岗位吸引数百人申",
+        "description": "12月8日消息，自从接管推特以来，埃隆·马斯克（ElonMusk）已经解雇了数千人，但这似乎并未影响到该公司的吸引力，其最新招聘信息吸引了数百人竞相发出求职申请。美国当地时间周日，推特在职业社交网站领英上发布了大约20个预招聘岗位信息。这...[阅读更多]",
+        "source": "网易互联网",
+        "picUrl": "http://cms-bucket.ws.126.net/2022/1208/2cf9ee87p00rmjpt2001kc0009c0070c.png?imageView&thumbnail=200y140",
+        "url": "https://www.163.com/tech/article/HO25FOI700097U7R.html"
+      },
+      {
+        "id": "2c8cecf1ca07004e98ffbdf7b6e09e75",
+        "ctime": "2022-12-07 21:49",
+        "title": "美团打车设立“1亿保障基金”",
+        "description": "12月7日，美团打车高峰好叫车联合办公室宣布从12月设立“1亿保障基金”，主要面向上海司机、车辆、调度提供资源支持和运营激励，保障运力。据悉，从12月初开始，美团打车将加大对司机补贴力度，投入更多新车和维保资源。此次推出的“1亿保障基金”，...[阅读更多]",
+        "source": "网易互联网",
+        "picUrl": "http://cms-bucket.ws.126.net/2022/1207/c77596b9p00rmix1w0013c0009c0070c.png?imageView&thumbnail=200y140",
+        "url": "https://www.163.com/tech/article/HO11UAUN00097U7R.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+
+<HEAD>
+  <TITLE>DouPHP轻量级企业网站管理系统 - Powered by DouPHP</TITLE>
+  <META content="text/html; charset=utf-8" http-equiv=Content-Type>
+  <META name=keywords content=DouPHP,轻量级企业网站管理系统>
+  <META name=description content=DouPHP,轻量级企业网站管理系统>
+  <META name=GENERATOR content="MSHTML 8.00.7600.17267">
+  <LINK rel=stylesheet type=text/css href="css/style.css">
+  <SCRIPT type=text/javascript src="js/jquery.min.js"></SCRIPT>
+
+  <SCRIPT type=text/javascript src="images/global.js"></SCRIPT>
+
+  <SCRIPT type=text/javascript src="js/slide_show.js"></SCRIPT>
+</HEAD>
+
+<BODY>
+  <DIV id=wrapper>
+    <DIV id=top>
+      <DIV class=wrap>
+        <UL class=topNav>
+          <LI><A href="http://demo.douco.com/m">手机版</A></LI>
+          <LI class=spacer></LI>
+          <LI><A href="javascript:AddFavorite('http://demo.douco.com/', 'DouPHP轻量级企业网站管理系统')">收藏本站</A></LI>
+        </UL>
+        <UL class=search>
+          <DIV class=searchBox>
+            <FORM id=search method=get name=search action=http://demo.douco.com /><LABEL for=keyword></LABEL><INPUT
+              class=keyword title=输入您要搜索的产品名称 onclick="formClick(this,'产品搜索')" value=产品搜索 maxLength=128 size=25
+              type=text name=s autocomplete="off"> <INPUT class=btnSearch value=提交 type=submit>
+            </FORM>
+          </DIV>
+        </UL>
+      </DIV>
+    </DIV>
+    <DIV id=header>
+      <DIV class=wrap>
+        <UL class=logo><A href="http://demo.douco.com/"><IMG title=DouPHP轻量级企业网站管理系统 alt=DouPHP轻量级企业网站管理系统
+              src="images/logo.png"></A> </UL>
+
+        <%- include("./nav.ejs") %>
+
+        <P class=clear></P>
+      </DIV>
+    </DIV>
+    <DIV class=slideShow>
+      <UL class=slides>
+        <LI><A style="BACKGROUND-IMAGE: url(https://demo.douphp.com/data/slide/20130514acunau.jpg
+  )" href="http://www.douco.com/" target=_blank></A></LI>
+        <LI><A style="BACKGROUND-IMAGE: url(https://demo.douphp.com/data/slide/20130514rjzqdt.jpg)"
+            href="http://www.douco.com/" target=_blank></A></LI>
+        <LI><A style="BACKGROUND-IMAGE: url(https://demo.douphp.com/data/slide/20130514xxsctt.jpg)"
+            href="http://www.douco.com/" target=_blank></A></LI>
+        <LI><A style="BACKGROUND-IMAGE: url(https://demo.douphp.com/data/slide/20130523hiqafl.jpg)"
+            href="http://www.douco.com/" target=_blank></A></LI>
+      </UL>
+    </DIV>
+    <SCRIPT type=text/javascript>
+
+$(document).ready(function(){
+ $('.slides').bxSlider({
+   mode: 'fade'
+ });
+})
+
+</SCRIPT>
+
+    <DIV id=index>
+      <DIV class=indexBox>
+        <DIV class=wrap>
+          <DIV class=recProduct>
+            <H3><EM>产品展示</EM><A class=more href="http://demo.douco.com/product_category.php">更多产品</A></H3>
+            <DIV class=list>
+              <%
+              //将路由中发过来的数据pageData解析，显示在页面中
+              var newProduct=pageData[0];     //四个商品，数组
+              var newNews=pageData[1];        //五条新闻，数组
+              for(var i=0;i<newProduct.length;i++){
+
+              %>
+
+              <DL style="width:125px;">
+                <DD class=img><A href="http://demo.douco.com/product.php?id=13"><IMG src="/<%= newProduct[i].image%>"></A></DD>
+                <DT><A href="http://demo.douco.com/product.php?id=13"><%= newProduct[i].name%></A></DT>
+                <DD class=price><%= newProduct[i].price%>元</DD>
+              </DL>
+             
+              <%
+                   }
+              %>
+
+            </DIV>
+          </DIV>
+          <DIV class=recArticle>
+            <H3><EM>新闻中心</EM><A class=more href="http://demo.douco.com/article_category.php">更多文章</A></H3>
+            <UL class=list>
+
+              <%
+              for(i=0;i<newNews.length;i++){
+              %>
+
+              <LI><B>06-26</B><A href="<%= newNews[i].add_time%>"><%= newNews[i].title%></A></LI>
+
+               <%
+               }
+              %>
+
+
+            </UL>
+          </DIV>
+        </DIV>
+      </DIV>
+      <DIV class="indexBox bg">
+        <DIV class=wrap>
+          <DIV class=about>
+            <H1>DouPHP轻量级企业网站管理系统</H1>
+            <DIV class=desc>
+              DouPHP是一款轻量级企业网站管理系统，基于PHP+Mysql架构的，可运行在Linux、Windows、MacOSX、Solaris等各种平台上，系统搭载Smarty模板引擎，支持自定义伪静态，前台模板采用DIV+CSS设计，后台界面设计简洁明了，功能简单易具有良好的用户体验，稳定性好、扩展性及安全性强，可面向中小型站点提供网站建设解决方案。
+            </DIV><A class=more href="http://demo.douco.com/page.php?id=1">查看详细</A>
+          </DIV>
+          <DIV class=contact>
+            <H2>联系我们</H2>
+            <UL>
+              <LI>销售热线：0596-8888888</LI>
+              <LI>传真号码：0596-6666666</LI>
+              <LI>电子邮箱：your@domain.com</LI>
+            </UL>
+          </DIV>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV id=footer>
+      <DIV class=wrap>
+        <DIV class=footNav><A href="http://demo.douco.com/page.php?id=1">公司简介</A><I>|</I><A
+            href="http://demo.douco.com/page.php?id=6">营销网络</A><I>|</I><A
+            href="http://demo.douco.com/page.php?id=2">企业荣誉</A><I>|</I><A
+            href="http://demo.douco.com/page.php?id=5">人才招聘</A><I>|</I><A
+            href="http://demo.douco.com/page.php?id=4">联系我们</A><I>|</I><A href="http://demo.douco.com/m">手机版</A></DIV>
+        <DIV class=copyRight>© DouPHP轻量级企业网站管理系统 2018 All Rights Reserved. <A href="http://www.douco.com/"
+            target=_blank>Powered by DouPHP</A>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV style="DISPLAY: none">
+      <SCRIPT
+        type=text/javascript>var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5623886'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s9.cnzz.com/stat.php%3Fid%3D5623886' type='text/javascript'%3E%3C/script%3E"));</SCRIPT>
+    </DIV>
+  </DIV>
+</BODY>
+
+</HTML>
